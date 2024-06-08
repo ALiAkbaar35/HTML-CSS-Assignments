@@ -1,0 +1,579 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body-wrapper {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f9;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: 0px auto;
+  overflow-y: auto;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 60px;
+  height: calc(100vh - 60px);
+  width: calc(100% - 120px);
+  gap: 20px;
+}
+.content-wrapper .box2 {
+  display: flex;
+  flex-direction: column;
+  height: calc(10% - 10px);
+  width: 100%;
+  gap: 5px;
+}
+.content-wrapper .box1 .box11 {
+  height: calc(80% - 5px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-wrapper .box1 .box11 .box111 {
+  display: flex;
+  align-items: end;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.content-wrapper .box1 .box11 .box112 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.content-wrapper .box1 .box11 .box112 .box1121 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: #f1f1f3;
+  margin-right: 4px;
+}
+
+.content-wrapper .box1 .box11 .box112 .box1122 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: #f1f1f3;
+}
+
+.content-wrapper .box1 .box12 {
+  height: 8%;
+  width: 33px;
+  background-color: #eaab76;
+}
+
+.content-wrapper .box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: calc(90% - 10px);
+  width: 100%;
+  gap: 20px;
+}
+.content-wrapper .box2 .box21 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  width: calc(25% - 15px);
+  background-color: #3f3f47;
+  /* background-image: url('https://picsum.photos/200'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;  */
+}
+
+.content-wrapper .box2 .box21 .box211 {
+  margin: 0px auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+.content-wrapper .box2 .box21 .box212 {
+  margin: 0px auto;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.content-wrapper .box2 .box21 .box213 {
+  margin: 0px auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+.content-wrapper .box2 .box21 .box214 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38%;
+  height: 8%;
+  margin: 20px auto;
+}
+.content-wrapper .box2 .box21 .box214 button {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background-color: #eaab76;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.content-wrapper .box2 .box22 {
+  height: 100%;
+  width: calc(25% - 15px);
+}
+
+.content-wrapper .box2 .box22 .image-wrapper {
+  background-color: white;
+  height: 65%;
+  width: 100%;
+}
+
+.content-wrapper .box2 .box22 .image-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-wrapper .box2 .box22 .name {
+  font-family: "Roboto", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.content-wrapper .box2 .box22 .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  width: 100%;
+  height: 7%;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.content-wrapper .box2 .box22 .price .first {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+  height: 100%;
+  text-decoration: line-through;
+}
+.content-wrapper .box2 .box22 .price .second {
+  flex: 1;
+  height: 100%;
+  color: #eaab76;
+}
+
+.content-wrapper .box2 .box22 .button {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  align-items: top;
+  width: 45%;
+  height: 8%;
+  border-radius: 3px;
+  background-color: #eaab76;
+  color: white;
+  border: none;
+  font-size: 13px;
+  gap: 3px;
+  margin-bottom: 5px;
+}
+.content-wrapper .box2 .box22 .pricei {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  width: 100%;
+  height: 7%;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 10px;
+}
+
+@media (max-width: 320px) {
+  body {
+    .body-wrapper {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+    .content-wrapper {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .content-wrapper .box1 {
+      width: 100%;
+      height: 20%;
+      gap: 0px;
+    }
+    .content-wrapper .box1 .box12 {
+      height: 3px;
+    }
+
+    .content-wrapper .box2 {
+      flex-direction: column;
+      width: 100%;
+      height: 80%;
+    }
+
+    .content-wrapper .box2 {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .content-wrapper .box2 .box21 {
+      height: 369px !important;
+      width: 100%;
+    }
+
+    .content-wrapper .box2 .box21 .box211 {
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box21 .box212 {
+      font-size: 50px;
+    }
+    .content-wrapper .box2 .box21 .box213 {
+      font-size: 16px;
+    }
+
+    .content-wrapper .box2 .box21 .box214 {
+      width: 40%;
+      height: 12%;
+    }
+    .content-wrapper .box2 .box21 .box214 button {
+      border-radius: 3px;
+      background-color: #eaab76;
+      color: white;
+      border: none;
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box22 {
+      height: 100%;
+      width: 100%;
+    }
+    .content-wrapper .box2 .box22 .name {
+      width: 100%;
+      height: 5%;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .content-wrapper .box2 .box22 .price {
+      margin-top: 2px;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 500;
+      gap: 8px;
+    }
+
+    .content-wrapper .box2 .box22 .button {
+      margin-top: 4px;
+      width: 35%;
+      height: 20%;
+      font-size: 12px;
+      gap: 3px;
+    }
+    .content-wrapper .box2 .box22 .pricei {
+      margin-top: 2px;
+      width: 100%;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+  body {
+    .body-wrapper {
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+    }
+    .content-wrapper {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .content-wrapper .box1 {
+      width: 100%;
+      height: 20%;
+      gap: 0px;
+    }
+    .content-wrapper .box1 .box12 {
+      height: 3px;
+    }
+
+    .content-wrapper .box2 {
+      flex-direction: column;
+      width: 100%;
+      height: 80%;
+    }
+
+    .content-wrapper .box2 {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .content-wrapper .box2 .box21 {
+      height: 369px !important;
+      width: 100%;
+    }
+
+    .content-wrapper .box2 .box21 .box211 {
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box21 .box212 {
+      font-size: 50px;
+    }
+    .content-wrapper .box2 .box21 .box213 {
+      font-size: 16px;
+    }
+
+    .content-wrapper .box2 .box21 .box214 {
+      width: 40%;
+      height: 12%;
+    }
+    .content-wrapper .box2 .box21 .box214 button {
+      border-radius: 3px;
+      background-color: #eaab76;
+      color: white;
+      border: none;
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box22 {
+      height: 100%;
+      width: 100%;
+    }
+    .content-wrapper .box2 .box22 .name {
+      width: 100%;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .content-wrapper .box2 .box22 .price {
+      margin-top: 2px;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 500;
+      gap: 8px;
+    }
+
+    .content-wrapper .box2 .box22 .button {
+      margin-top: 4px;
+      width: 27%;
+      height: 30px;
+      font-size: 12px;
+      gap: 3px;
+    }
+    .content-wrapper .box2 .box22 .pricei {
+      margin-top: 2px;
+      width: 100%;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+@media (min-width: 567px) and (max-width: 992px) {
+  body {
+    .body-wrapper {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+    }
+    .content-wrapper {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .content-wrapper .box1 {
+      width: 100%;
+      height: 20%;
+      gap: 0px;
+    }
+    .content-wrapper .box1 .box12 {
+      height: 3px;
+    }
+
+    .content-wrapper .box2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .content-wrapper .box2 .box21 {
+      height: 540px;
+      width: calc(50% - 5px);
+    }
+    .content-wrapper .box2 .box21 .box211 {
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box21 .box212 {
+      font-size: 50px;
+    }
+    .content-wrapper .box2 .box21 .box213 {
+      font-size: 16px;
+    }
+
+    .content-wrapper .box2 .box21 .box214 {
+      width: 40%;
+      height: 8%;
+    }
+    .content-wrapper .box2 .box21 .box214 button {
+      border-radius: 3px;
+      background-color: #eaab76;
+      color: white;
+      border: none;
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box22 {
+      height: calc(100% - 5px);
+      width: calc(50% - 5px);
+    }
+    .content-wrapper .box2 .box22 .image-wrapper {
+      height: 450px;
+      width: 100%;
+    }
+    .content-wrapper .box2 .box22 .name {
+      width: 100%;
+      height: 5%;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .content-wrapper .box2 .box22 .price {
+      margin-top: 2px;
+      height: 5%;
+      font-size: 19px;
+      font-weight: 500;
+      gap: 8px;
+    }
+
+    .content-wrapper .box2 .box22 .button {
+      margin-top: 4px;
+      width: 40%;
+      height: 34px;
+      font-size: 12px;
+      gap: 3px;
+    }
+    .content-wrapper .box2 .box22 .pricei {
+      margin-top: 2px;
+      width: 100%;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  body {
+    .body-wrapper {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+    }
+    .content-wrapper {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .content-wrapper .box1 {
+      width: 100%;
+      height: 20%;
+      gap: 0px;
+    }
+    .content-wrapper .box1 .box12 {
+      height: 3px;
+    }
+
+    .content-wrapper .box2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .content-wrapper .box2 .box21 {
+      height: 540px;
+      width: calc(33% - 5px);
+    }
+    .content-wrapper .box2 .box21 .box211 {
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box21 .box212 {
+      font-size: 50px;
+    }
+    .content-wrapper .box2 .box21 .box213 {
+      font-size: 16px;
+    }
+
+    .content-wrapper .box2 .box21 .box214 {
+      width: 40%;
+      height: 8%;
+    }
+    .content-wrapper .box2 .box21 .box214 button {
+      border-radius: 3px;
+      background-color: #eaab76;
+      color: white;
+      border: none;
+      font-size: 16px;
+    }
+    .content-wrapper .box2 .box22 {
+      height: calc(100% - 5px);
+      width: calc(33% - 5px);
+    }
+    .content-wrapper .box2 .box22 .image-wrapper {
+      height: 450px;
+      width: 100%;
+    }
+    .content-wrapper .box2 .box22 .name {
+      width: 100%;
+      height: 5%;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .content-wrapper .box2 .box22 .price {
+      margin-top: 2px;
+      height: 5%;
+      font-size: 19px;
+      font-weight: 500;
+      gap: 8px;
+    }
+
+    .content-wrapper .box2 .box22 .button {
+      margin-top: 4px;
+      width: 40%;
+      height: 34px;
+      font-size: 12px;
+      gap: 3px;
+    }
+    .content-wrapper .box2 .box22 .pricei {
+      margin-top: 2px;
+      width: 100%;
+      height: 5%;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}

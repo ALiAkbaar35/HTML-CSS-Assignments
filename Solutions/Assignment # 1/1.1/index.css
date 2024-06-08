@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  height: 96vh;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.A {
+  border: 2px solid black;
+  width: 45%;
+  height: 96vh;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.B {
+  width: 43%;
+  height: 96vh;
+  
+}
+.divb {
+  border: 2px solid black;
+  width: 100%;
+  height: 35%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divc {
+  border: 2px solid black;
+  width: 100%;
+  height: 60%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
